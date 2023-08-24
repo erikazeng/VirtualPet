@@ -4,8 +4,6 @@ size(400,400);
 }
 void draw()
 {
-fill(0,0,0);
-text("erika's super cool reindeer", 125, 350);
 fill(98,52,18);
 noStroke();
 ellipse(200,200,200,200);
