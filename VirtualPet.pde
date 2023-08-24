@@ -1,8 +1,23 @@
-
-void setup(){
-  //some of your code here
+void setup()
+{
+size(400,400);
 }
-void draw(){
-  //more of your code here
+void draw()
+{
+fill(0,0,0);
+text("erika's super cool reindeer", 125, 350);
+fill(98,52,18);
+noStroke();
+ellipse(200,200,200,200);
+fill(255,0,0);
+ellipse(200,250, 35, 35);
+fill(0,0,0);
+ellipse(150, 170, 15, 35);
+ellipse(250, 170, 15, 35);
+bezier(146, 114, 147, 71, 117, 73, 117, 71);
 }
 
+void mouseClicked(){
+  println(mouseX, mouseY);
+  
+}
